@@ -1,0 +1,220 @@
+
+body {
+    background-color: #464646;
+    padding: 0px;
+    background: url(hand.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+
+
+}
+#myvideo{
+  display: none;
+}
+
+.p20 {
+    padding: 20px;
+    margin-left: 10px;
+}
+.header{
+    position:sticky;
+    size: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align:left;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+    font-size: 32px;
+    line-height: 50px;
+    border: 2px solid;
+
+
+}
+#lang{
+    display: inline;
+    left: 80vw;
+    color: white;
+    cursor: pointer;
+    background-color:black;
+    max-width: 5vw;
+
+
+}
+#pay{
+    
+    position:relative;
+    bottom:0vh;
+    left:12vw;
+    width:1vw;
+    cursor: pointer;
+
+    
+}
+.canvasbox {
+    position: absolute;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 500px;
+    height: 388px;
+    border-bottom: 3px solid #EE82EE;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
+
+
+}
+
+.mb10 {
+    
+
+    margin-right:5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#trackbutton{
+    margin-right:5px;
+    width: 200px;
+}
+
+.mt10 {
+    
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.updatenote {
+    position: absolute;
+    margin-left: 60px;
+    margin-right:auto;
+    margin-top: 9px;
+    padding: 10px;
+    background: #0027c2;
+    color: white;
+    display: inline;
+    border: 2px solid black;
+}
+
+audio {
+    display:inline;
+    position: relative;
+    bottom:-105vh;
+    right:0vw;
+    left:12vw;
+    max-height: 70%;
+    max-width:100%;
+    border-radius: 3px;
+    overflow: hidden;
+    
+}
+
+.hero__scroll {
+    text-shadow: 5px 5px #EE82EE;
+    font-weight: bold;
+    color:white;
+    position: absolute;
+    bottom: 1px;
+    width: 140px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    padding-bottom: 1px;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
+
+}
+.secondary {
+    left: 20px;
+    background: red;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 200px;
+    max-height: 250px;
+    padding: 75px 20px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+}
+.box {
+  
+  width: 40%;
+  height: 420px;
+  border: 2px solid black;
+  padding: 5px 5px 5px 0px;
+  color: yellow;
+  text-align: left;
+  overflow: hidden;
+  
+  
+  text-orientation: upright;
+}
+#tx{
+    position: center;
+
+    
+    font-family: 'Roboto Condensed', sans-serif;
+
+   
+    font-size: 2vw;
+
+}
+.a {
+  
+  margin: 40vh auto auto 5px;
+}
+
+.b {
+  margin: 100vh auto auto auto;
+  background: #0027c2;
+}
+
+#recorded{
+
+    top:90vh;
+    left:55vw;
+    max-width:40%; 
+    height:25vw;
+    position: relative;
+    
+    border-radius: 3px;
+    border-bottom: 3px solid #EE82EE;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
+}
+
+
+button {
+  
+  position:relative;
+  margin: 75vh 80vw auto auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 99px;
+}
+
+button:last-of-type {
+  margin: 0;
+  
+
+}
+#record{
+  display:none;
+}
+#play{
+  display:none;
+}
+#download{
+  display:none;
+}
+
+
+
+}
+}

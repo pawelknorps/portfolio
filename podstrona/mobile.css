@@ -1,0 +1,185 @@
+
+@media only screen and (max-width: 767px) {
+  body {
+    background: url(hand_mob.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 95vh;
+    
+    overflow-x: hidden;
+   
+    }
+  
+
+
+.p20 {
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+.header{
+    position:sticky;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align:center;
+    color:white;
+    size: auto;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid;
+    border-color: black;
+    align-items:center;
+
+}
+
+.canvasbox {
+    
+    left: 5px;
+    right:5px;
+    max-width:55%; 
+    height:55vw;
+    position: absolute;
+    
+    
+    margin: 10vh auto auto auto;
+    border-radius: 3px;
+    border-bottom: 3px solid #EE82EE;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
+}
+#myvideo {
+  display:none;
+    
+
+}
+.mb10 {
+    margin: 5vh auto auto auto;
+    max-width:75%; 
+    height:20vw;
+    position: sticky;
+    font-size: 80%;
+
+    
+}
+
+.mt10 {
+   
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.updatenote {
+    font-size: 70%;
+    position: absolute;
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top: 7px;
+    padding: 10px;
+    background: #0027c2;
+    color: white;
+    display: inline;
+    border: 2px solid black;
+}
+.bx--btn {
+    font-size: 80%;
+}
+audio {
+    position: relative;
+    top:145vh;
+    margin: auto auto auto auto;
+    left:15vw;
+
+    max-height: 70%;
+    max-width:100%;
+    
+    overflow: hidden;
+}
+.box {
+  position:relative;
+  width: 75%;
+  max-height: 50vh;
+  
+  
+  
+  color: white;
+  text-align: left;
+  overflow: scroll;
+}
+#tx{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:5px;
+    padding: 10px;
+    color: yellow;
+    max-height:50vh;
+    font-size: 20px;
+    text-align: left;
+    overflow: hidden;
+
+}
+.a {
+  
+  margin: 70vh auto auto auto;
+}
+
+.b {
+    display:none;
+    margin: 120vh auto auto auto;
+}
+#recorded{
+    display:none;
+
+    top:240vh;
+    left:30vw;
+    max-width:55%; 
+    height:40vw;
+    position: absolute;
+    
+    border-radius: 3px;
+    border-bottom: 3px solid #EE82EE;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
+}
+
+
+button {
+  display: none;
+  position:relative;
+  margin: 75vh 80vw auto auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 99px;
+}
+
+button:last-of-type {
+  margin: 0;
+  
+
+}
+#record{
+  display:none;
+}
+#play{
+  display:none;
+}
+
+
+.hero__scroll {
+    text-shadow: 5px 5px #EE82EE;
+    font-weight: bold;
+    color:white;
+    position: absolute;
+    bottom: 0vh;
+    width: 140px;
+    
+    display: block;
+    cursor: pointer;
+    padding-bottom: 0px;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: scroll;
+}
+}
+}

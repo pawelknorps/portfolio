@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143837497-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-143837497-2');
+  </script>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <title>reakcja na dłoń! </title>
+ 
+  <link rel="stylesheet" href="https://unpkg.com/carbon-components@latest/css/carbon-components.css" />
+  
+  
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+</head>
+
+<body class="bx--body p20">
+  <header class="header">
+  <p>Prezentuję swój nowy utwór "Mięśnie jarzmowe" w eksperymentalny sposób! </p>
+  <p>Używając kamery włączasz utwór swą dłonią. </p>
+  </header>
+  
+  <div class="p20">
+      <button id="lang" onclick="window.location.href='./index-en.html'">EN</button>
+  </div>
+  <div class="mb10">
+    <button onclick="toggleVideo()" id="trackbutton" class="bx--btn bx--btn--secondary" type="button">
+      <span>Kliknij tutaj by rozpocząć!</span> 
+      
+    </button>
+    <div id="updatenote" class="updatenote mt10"> ładuję model...</div>
+  </div>
+  <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
+
+  <canvas id="canvas" class="border canvasbox"></canvas>
+  
+  <video id="recorded" autoplay loop controls></video>
+  <audio defer src="olaf.mp3" id="audio" autobuffer autoloop loop controls></audio>
+
+ 
+  <footer>
+    <div>
+      <span class="hero__scroll aos-init aos-animate" onclick="if(isVideo=true){toggleVideo()}">
+        <pre>
+            <br>Kliknij mnie</br>
+        </pre>    
+      </span>
+    </div>
+    
+     
+   <div class="box a" id="trigger-left" data-aos="fade-out" data-aos-duration="19000" data-aos-easing="ease-in-quad">
+      <section class="header">
+        <div id="tx" >
+             
+            <span>Cześć!</span>
+            <p>To eksperymentalna strona, która wykorzystuje algorytmy machine learning.</p>
+            <p>Mam nadzieję, że się podobało. Możesz posłuchać całego utworu tutaj. "Mięśnie jarzmowe"</p>
+            
+    	</div>
+      </section
+	
+	<div></div>
+	
+    <div id="pay">
+    	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+		<input type="hidden" name="cmd" value="_s-xclick" />
+		<input type="hidden" name="hosted_button_id" value="6FJ9QD86JSPW6" />
+		<input type="image" src="https://www.paypalobjects.com/en_US/PL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+		
+		</form>
+
+	</div>
+
+    <div class="box b" data-aos="zoom-in">
+      <h2></h2>
+    </div>
+
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"> </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.3.2/firebase-app.js"></script>
+
+  <script defer src="https://www.gstatic.com/firebasejs/6.3.1/firebase-storage.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCX59H_qFxgPApwQDjZzey2W_nvXFaeHXQ",
+      authDomain: "wykrywaniereki.firebaseapp.com",
+      databaseURL: "https://wykrywaniereki.firebaseio.com",
+      projectId: "wykrywaniereki",
+      storageBucket: "wykrywaniereki.appspot.com",
+      messagingSenderId: "680324992565",
+      appId: "1:680324992565:web:d1ad354bd41c3da0"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+    
+  
+</body>
+</html>

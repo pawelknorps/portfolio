@@ -75,20 +75,36 @@
 	/*--/ Navbar Menu Reduce /--*/
 	$(window).trigger('scroll');
 	$(window).on('scroll', function () {
+
 		var pixels = 50; 
 		var top = 1200;
 		if ($(window).scrollTop() > pixels) {
+			$('.socials').hide();
 			$('.navbar-expand-md').addClass('navbar-reduce');
 			$('.navbar-expand-md').removeClass('navbar-trans');
 		} else {
+			
+		    
+			$('.socials').show();
 			$('.navbar-expand-md').addClass('navbar-trans');
 			$('.navbar-expand-md').removeClass('navbar-reduce');
 		}
 		if ($(window).scrollTop() > top) {
+			$('.socials').hide();
 			$('.scrolltop-mf').fadeIn(1000, "easeInOutExpo");
 		} else {
+			
 			$('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
 		}
+	});
+	$( document ).ready(function() {
+    var heights = $(".work-box").map(function() {
+        return $(this).height();
+    }).get(),
+
+    maxHeight = Math.max.apply(null, heights);
+
+    $(".work-box").height(maxHeight);
 	});
 
 	/*--/ Star Typed /--*/
@@ -102,6 +118,7 @@
 			backSpeed: 30
 		});
 	};
+	
 	
 	
 })(jQuery);

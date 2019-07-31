@@ -201,10 +201,12 @@ a:hover {
 
 .socials {
   padding: 1.5rem 0;
+
 }
 
 .socials ul li {
   display: inline-block;
+
 }
 
 .socials .ico-circle {
@@ -214,8 +216,10 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px black;
+  box-shadow: 0 0 0 0px white;
   transition: all 500ms ease;
+  color: #fff;
+
 }
 
 .socials .ico-circle:hover {
@@ -225,10 +229,40 @@ a:hover {
   transition: all 500ms ease;
 }
 
+/*------/ Socials1 /------*/
+
+.socials1 {
+  padding: 1.5rem 0;
+}
+
+.socials1 ul li {
+  display: inline-block;
+}
+
+.socials1 .ico-circle {
+  height: 40px;
+  width: 40px;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  line-height: 1.4;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 0px black;
+  transition: all 500ms ease;
+}
+
+.socials1 .ico-circle:hover {
+  background-color: black;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
+
 /*------/ Ul resect /------*/
 
 .ul-resect,
 .socials ul,
+.socials1 ul,
 .list-ico,
 .blog-wrapper .post-meta ul,
 .box-comments .list-comments,
@@ -241,10 +275,11 @@ a:hover {
 
 .list-ico {
   line-height: 2;
+  
 }
 
 .list-ico span {
-  color: black;
+  
   margin-right: 10px;
 }
 
@@ -635,7 +670,9 @@ a:hover {
 .intro .text-slider-items {
   display: none;
 }
-
+.text-slider-items1 {
+  display: none;
+}
 .intro-single {
   height: 350px;
 }
@@ -681,6 +718,11 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #dddddd;
+  display: flex;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  
 
 }
 
@@ -692,6 +734,10 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  max-height: 40vh;
+
+  
+
 }
 
 .work-img img {
@@ -733,44 +779,6 @@ a:hover {
   text-align: center;
 }
 
-/*------/ Comments /------*/
-
-.box-comments .list-comments li {
-  padding-bottom: 40px;
-}
-
-.box-comments .list-comments .comment-avatar {
-  display: table-cell;
-  vertical-align: top;
-}
-
-.box-comments .list-comments .comment-avatar img {
-  width: 80px;
-  height: 80px;
-}
-
-.box-comments .list-comments .comment-author {
-  font-size: 1.3rem;
-}
-
-.box-comments .list-comments .comment-details {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 25px;
-}
-
-.box-comments .list-comments a {
-  color: black;
-}
-
-.box-comments .list-comments span {
-  color: #1e1e1e;
-  font-style: italic;
-}
-
-.box-comments .comment-children {
-  margin-left: 40px;
-}
 
 /*------/ Sidebar /------*/
 
@@ -858,57 +866,7 @@ footer .credits a {
   color: #fff;
 }
 
-/*======================================
-//--//-->   CONtaCT FORM
-======================================*/
 
-#sendmessage {
-  color: black;
-  border: 1px solid black;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#sendmessage.show,
-#errormessage.show,
-.show {
-  display: block;
-}
-
-.validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-.map-container-2{
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
-box-shaw
-}
-.map-container-2 iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-}
 /*======================================
 //--//-->   BUTTON
 ======================================*/

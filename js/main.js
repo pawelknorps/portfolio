@@ -97,7 +97,7 @@
 			$('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
 		}
 	});
-	$( document ).ready(function() {
+	window.onload = function()  {
     var heights = $(".work-box").map(function() {
         return $(this).height();
     }).get(),
@@ -105,7 +105,7 @@
     maxHeight = Math.max.apply(null, heights);
 
     $(".work-box").height(maxHeight);
-	});
+	};
 
 	/*--/ Star Typed /--*/
 	if ($('.text-slider').length == 1) {

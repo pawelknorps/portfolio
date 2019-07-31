@@ -197,19 +197,19 @@ a:hover {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-/*------/ Socials /------*/
+/*------/ Socials2 /------*/
 
-.socials {
+.socials2 {
   padding: 1.5rem 0;
 
 }
 
-.socials ul li {
+.socials2 ul li {
   display: inline-block;
 
 }
 
-.socials .ico-circle {
+.socials2 .ico-circle {
   height: 40px;
   width: 40px;
   font-size: 1.7rem;
@@ -222,7 +222,7 @@ a:hover {
 
 }
 
-.socials .ico-circle:hover {
+.socials2 .ico-circle:hover {
   background-color: black;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;

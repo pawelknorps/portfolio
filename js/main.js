@@ -79,18 +79,18 @@
 		var pixels = 50; 
 		var top = 1200;
 		if ($(window).scrollTop() > pixels) {
-			$('.socials').hide();
+			$('.socials2').hide();
 			$('.navbar-expand-md').addClass('navbar-reduce');
 			$('.navbar-expand-md').removeClass('navbar-trans');
 		} else {
 			
 		    
-			$('.socials').show();
+			$('.socials2').show();
 			$('.navbar-expand-md').addClass('navbar-trans');
 			$('.navbar-expand-md').removeClass('navbar-reduce');
 		}
 		if ($(window).scrollTop() > top) {
-			$('.socials').hide();
+			$('.socials2').hide();
 			$('.scrolltop-mf').fadeIn(1000, "easeInOutExpo");
 		} else {
 			

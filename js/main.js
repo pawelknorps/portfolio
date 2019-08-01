@@ -6,8 +6,10 @@
 	
   
   $('.navbar-toggler').on('click', function() {
+  	
     if( ! $('#mainNav').hasClass('navbar-reduce')) {
       $('#mainNav').addClass('navbar-reduce');
+      $('.socials2').hide();
     }
   })
 
@@ -63,6 +65,7 @@
 	// Closes responsive menu when a scroll trigger link is clicked
 	$('.js-scroll').on("click", function () {
 		$('.navbar-collapse').collapse('hide');
+		
 	});
 
 	// Activate scrollspy to add active class to navbar items on scroll
@@ -80,17 +83,20 @@
 		var top = 1200;
 		if ($(window).scrollTop() > pixels) {
 			$('.socials2').hide();
+			$('.navbar-brand js-scroll').show();
 			$('.navbar-expand-md').addClass('navbar-reduce');
 			$('.navbar-expand-md').removeClass('navbar-trans');
 		} else {
 			
-		    
+		    $('.navbar-brand js-scroll').hide();
 			$('.socials2').show();
+			
 			$('.navbar-expand-md').addClass('navbar-trans');
 			$('.navbar-expand-md').removeClass('navbar-reduce');
 		}
 		if ($(window).scrollTop() > top) {
 			$('.socials2').hide();
+			$('.navbar-brand js-scroll').show();
 			$('.scrolltop-mf').fadeIn(1000, "easeInOutExpo");
 		} else {
 			

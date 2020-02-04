@@ -22,7 +22,7 @@ body {
 }
 .header{
     position:sticky;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Roboto Condensed', sans-serif;
     text-align:center;
     margin-left: 40px;
@@ -30,15 +30,18 @@ body {
     padding: 15px;
     
     line-height: 12vh;
-    border: 2px solid;
+    
     text-shadow: 5px 5px #EE82EE;
     
     color:white;
     
-    
   
-    
-
+}
+.p40{
+  text-shadow: 5px 5px #EE82EE;
+  font-size: 60px;
+  color:white;
+  text-align:center;
 }
 #lang{
     display: inline;
@@ -105,11 +108,11 @@ body {
 
 audio {
     position:absolute;
-    
+    z-index: 9999;
     overflow: hidden;
-    bottom:-65vh;
+    bottom:-60vh;
     
-    left:10vw;
+    left:15vw;
     
    
     
@@ -170,7 +173,7 @@ audio {
     font-family: 'Roboto Condensed', sans-serif;
 
    
-    font-size: 30px;
+    font-size: 50px;
 
 }
 .a {
@@ -212,6 +215,12 @@ button:last-of-type {
   
 
 }
+.blank {
+  position: absolute;
+  
+  padding: 50vh;
+}
+
 #record{
   display:none;
 }

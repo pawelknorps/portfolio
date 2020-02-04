@@ -1,14 +1,14 @@
 
 body {
     background-color: #464646;
-    padding: 0px;
+    padding: 20px;
     background: url(hand.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
-    overflow-x: hidden;
+    overflow-x: scroll;
 
 
 }
@@ -22,16 +22,22 @@ body {
 }
 .header{
     position:sticky;
-    size: auto;
+    font-size: 50px;
     font-family: 'Roboto Condensed', sans-serif;
-    text-align:left;
+    text-align:center;
     margin-left: 40px;
     margin-right: 40px;
     padding: 15px;
-    font-size: 32px;
-    line-height: 50px;
+    
+    line-height: 12vh;
     border: 2px solid;
-
+    text-shadow: 5px 5px #EE82EE;
+    
+    color:white;
+    
+    
+  
+    
 
 }
 #lang{
@@ -98,15 +104,14 @@ body {
 }
 
 audio {
-    display:inline;
-    position: relative;
-    bottom:-105vh;
-    right:0vw;
-    left:12vw;
-    max-height: 70%;
-    max-width:100%;
-    border-radius: 3px;
+    position:absolute;
+    
     overflow: hidden;
+    bottom:-65vh;
+    
+    left:10vw;
+    
+   
     
 }
 
@@ -141,34 +146,37 @@ audio {
     background: #ccc;
     text-align: center;
     color: #FFF;
-    font-size: 3em;
+    font-size: 4em;
 }
 .box {
   
   width: 40%;
-  height: 420px;
-  border: 2px solid black;
+  height: 50vh;
+  font-size: 6vw;
   padding: 5px 5px 5px 0px;
-  color: yellow;
+  color: white;
   text-align: left;
   overflow: hidden;
-  
+  text-shadow: 5px 5px #EE82EE;
+  font-weight: bold;
   
   text-orientation: upright;
 }
 #tx{
     position: center;
-
+    text-shadow: 5px 5px #EE82EE;
+    font-weight: bold;
     
     font-family: 'Roboto Condensed', sans-serif;
 
    
-    font-size: 2vw;
+    font-size: 30px;
 
 }
 .a {
   
   margin: 40vh auto auto 5px;
+  font-size: 10vh;
 }
 
 .b {
@@ -216,5 +224,5 @@ button:last-of-type {
 
 
 
-}
-}
+
+

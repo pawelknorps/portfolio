@@ -59,6 +59,13 @@ a:hover {
   box-shadow: 0 0 0 4px #cde1f8;
 }
 
+
+#space{
+  padding: 0 0 60px 0;
+}
+.title-a{
+  font-size:6px;
+}
 .display-5 {
   font-size: 2.5rem;
   font-weight: 300;
@@ -78,6 +85,31 @@ a:hover {
   overflow: hidden;
 }
 
+
+ol.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  float: left;
+  width: 8vw;
+  height: 2vh;
+  margin: 0;
+  /* border-radius: 1;
+  border: 1;
+  border-color: black; */
+  background: white;
+}
+
+ol.carousel-indicators li.active {
+  background: black;
+}
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;

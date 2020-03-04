@@ -16,7 +16,7 @@
   // Preloader
   $(window).on('load', function () {
     if ($('#preloader').length) {
-      $('#preloader').delay(1).fadeOut('fast', function () {
+      $('#preloader').delay(1).fadeOut('slow', function () {
         $(this).remove();
       });
     }

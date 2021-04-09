@@ -664,7 +664,7 @@ ol.carousel-indicators li.active {
 
 .intro .intro-content {
   text-align: center;
-  position: absolute;
+  /* position: absolute; */
   height:50vh;
 }
 
@@ -1043,4 +1043,16 @@ footer .credits a {
 }
 #eng.nav-link.eng:before{
   content:none;
+}
+
+
+
+.player {
+  position:absolute;
+  display: inline-block;
+  vertical-align: bottom;
+  top:80vh
+}
+#dup {
+  top:40vh;
 }

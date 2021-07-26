@@ -93,6 +93,9 @@ ol.carousel-indicators {
   left: 0;
   right: 0;
   width: auto;
+  /* border: 5px;
+  border-color: black;
+  border-radius: 2px; */
 }
 
 ol.carousel-indicators li,
@@ -101,9 +104,9 @@ ol.carousel-indicators li.active {
   width: 8vw;
   height: 2vh;
   margin: 0;
-  /* border-radius: 1;
-  border: 1;
-  border-color: black; */
+  border-radius: 0;
+  border: .0001;
+  border-color: black;
   background: white;
 }
 
